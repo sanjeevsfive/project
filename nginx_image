@@ -1,0 +1,7 @@
+# base image from dockerhub
+FROM nginx:latest
+
+# Download a static page as index.html @ nginx root directory
+# RUN curl https://www.free-css.com/free-css-templates/page272/evolve > /usr/share/nginx/html/index.html
+
+EXPOSE 80
